@@ -24,4 +24,4 @@ const flattenList = (list) => {
   return flattened
 }
 
-export default flattenList
+module.exports = flattenList

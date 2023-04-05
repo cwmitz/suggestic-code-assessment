@@ -36,6 +36,7 @@ const ListFlattener = () => {
     const flattenedList = flattenList(JSON.parse(inputList))
     setOutputList(flattenedList)
   }
+  console.log(typeof outPutList)
 
   return (
     <div className="list-flattener-container">
@@ -48,7 +49,7 @@ const ListFlattener = () => {
         onChange={handleInputChange}
       />
       <button className="list-flattener-button" onClick={handleFlattenClick}>
-        Flatten List
+        Flatten Sequence
       </button>
       <h2 className="list-flattener-subtitle">Flattened Sequence:</h2>
       {errorMessage && (

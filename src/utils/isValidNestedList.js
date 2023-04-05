@@ -30,4 +30,4 @@ const isValidNestedList = (listString) => {
   }
 }
 
-export default isValidNestedList
+module.exports = isValidNestedList
